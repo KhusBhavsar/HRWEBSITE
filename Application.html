@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kudosware Hiring Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"></div>
+    <div class="container2">
+
+        <!-- Navbar Section -->
+        <nav>
+            <a href="index.html"> <span>Kudosware.</span></a>
+            <div class="right">
+                <ul>
+                  <li ><a  href="about.html">AboutUs</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Body of the website -->
+        <div class="form" style="width:100%; display: flex; justify-content: center;">
+            <form method="post" enctype="multipart/form-data" action="Application.php">
+                <label>Name:</label>
+                <input type="text" name="name" required><br><br>
+                <label>Email:</label>
+                <input type="email" name="email" required><br><br>
+                <label>Phone Number:</label>
+                <input type="tel" name="phone" required><br><br>
+                <label>Upload PDF File:</label>
+                <input type="file" name="file" required ><br><br>
+                <p>Maximum Size Upto 100KB</p>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+          
+
+    </div>
+    <script src="client.js"></script>
+    <script src="server.js"></script>
+</body>
+</html>
